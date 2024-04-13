@@ -1,6 +1,6 @@
 from turtle import *
 
-speed (30)
+speed (200)
 #we want to paint a house
 
 #step 1 draw a square
@@ -75,18 +75,130 @@ forward(30)
 right(90)
 forward(30)
 end_fill()
+#grass
+penup()
+goto(0,0)
+pendown()
+color("green")
+begin_fill()
+left(90)
+forward(750)
+right(90)
+forward(400)
+right(90)
+forward(1500)
+right(90)
+forward(400)
+right(90)
+forward(800)
+end_fill()
+#clouds1
+penup()
+goto(-250,300)
+pendown()
+color ("light blue")
+begin_fill()
+forward(100)
+right(90)
+forward(60)
+right(90)
+forward(160)
+right(90)
+forward(60)
+right(90)
+forward(100)
+end_fill()
 
 
+#clouds2
+penup()
+goto(-500,200)
+pendown()
+color ("light blue")
+begin_fill()
+forward(100)
+right(90)
+forward(60)
+right(90)
+forward(160)
+right(90)
+forward(60)
+right(90)
+forward(100)
+end_fill()
 
+#clouds3
+penup()
+goto(-700,400)
+pendown()
+color ("light blue")
+begin_fill()
+forward(100)
+right(90)
+forward(60)
+right(90)
+forward(160)
+right(90)
+forward(60)
+right(90)
+forward(100)
+end_fill()
+#clouds4
+penup()
+goto(600,300)
+pendown()
+color ("light blue")
+begin_fill()
+forward(100)
+right(90)
+forward(60)
+right(90)
+forward(160)
+right(90)
+forward(60)
+right(90)
+forward(100)
+end_fill()
 
+#clouds5
+penup()
+goto(400,320)
+pendown()
+color ("light blue")
+begin_fill()
+forward(100)
+right(90)
+forward(60)
+right(90)
+forward(160)
+right(90)
+forward(60)
+right(90)
+forward(100)
+end_fill()
 
+#trees
+penup()
+goto(-70,0)
+pendown()
+color("brown")
+width(30)
+left (90)
+forward(60)
+#green part of the three's
 
-
-
-
-
-
-
-
-
+penup()
+goto(-80,65)
+pendown()
+width(20)
+color("green")
+right(90)
+forward(20)
+left (90)
+forward(20)
+left (90)
+forward(30)
+left (90)
+forward(20)
 exitonclick()
+
